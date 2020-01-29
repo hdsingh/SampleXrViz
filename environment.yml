@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - panel>=0.7.0
+  - holoviews
+  - hvplot
+  - xarray>=0.14.1
+  - netcdf4
+  - datashader
+  - cartopy
+  - geoviews
+  - xrviz
+  
+# conda install -c conda-forge -c defaults panel>=0.7.0 holoviews hvplot xarray>=0.14.1 netcdf4 datashader cartopy geoviews
