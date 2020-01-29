@@ -1,6 +1,7 @@
 channels:
   - conda-forge
   - defaults
+  - pyviz
 dependencies:
   - panel>=0.7.0
   - holoviews
@@ -11,5 +12,8 @@ dependencies:
   - cartopy
   - geoviews
   - xrviz
+  - jupyter_panel_proxy
+  - nbserverproxy
+  - tornado<6
   
 # conda install -c conda-forge -c defaults panel>=0.7.0 holoviews hvplot xarray>=0.14.1 netcdf4 datashader cartopy geoviews
